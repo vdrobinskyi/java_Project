@@ -1,8 +1,10 @@
-package assortment;
+package service.assortment;
 
 import domain.Assortment;
 
-import static assortment.AssortmentStateEnum.*;
+import static service.assortment.AssortmentStateEnum.NEW;
+import static service.assortment.AssortmentStateEnum.UPLOAD;
+
 
 public class New extends AssortmentState {
 

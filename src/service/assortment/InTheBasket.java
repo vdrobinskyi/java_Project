@@ -1,4 +1,4 @@
-package assortment;
+package service.assortment;
 
 import domain.Assortment;
 

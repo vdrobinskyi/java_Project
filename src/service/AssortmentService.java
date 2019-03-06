@@ -5,8 +5,7 @@ import domain.Assortment;
 import domain.Purchase;
 import domain.User;
 import exceptions.ExistsException;
-import assortment.StateMachine;
-import impl.AssortmentImplRepository;
+import service.assortment.StateMachine;
 
 import java.util.List;
 

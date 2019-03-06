@@ -1,6 +1,7 @@
-package assortment;
+package service.assortment;
 
 import domain.Assortment;
+import domain.Purchase;
 
 public class Upload extends AssortmentState {
 

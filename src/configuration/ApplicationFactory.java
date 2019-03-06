@@ -1,10 +1,11 @@
 package configuration;
 
-import impl.AssortmentImplRepository;
-import impl.UserImplRepository;
+import dao.impl.AssortmentImplRepository;
+import dao.impl.UserImplRepository;
+import domain.User;
 import service.AssortmentService;
 import service.UserService;
-import assortment.*;
+import service.assortment.*;
 
 import static java.util.Arrays.asList;
 

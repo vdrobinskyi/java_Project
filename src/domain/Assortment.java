@@ -1,14 +1,12 @@
 package domain;
 
-import assortment.AssortmentStateEnum;
-import assortment.AssortmentStateEnum;
+import service.assortment.AssortmentStateEnum;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import static assortment.AssortmentStateEnum.NEW;
-import static assortment.AssortmentStateEnum.NEW;
+import static service.assortment.AssortmentStateEnum.NEW;
 
 public class Assortment {
     private Integer id;
