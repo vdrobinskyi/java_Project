@@ -22,11 +22,12 @@ public class Assortment {
 
     public Assortment(){}
 
-    public Assortment(Integer price, String name, String description, Integer amount) {
+    public Assortment(Integer price, String name, String description, Integer amount, User buyer) {
         this.price = price;
         this.name = name;
         this.description = description;
         this.amount = amount;
+        this.buyer = buyer;
     }
 
     public Long getId() {

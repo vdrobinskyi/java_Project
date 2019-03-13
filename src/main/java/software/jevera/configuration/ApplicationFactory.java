@@ -9,12 +9,12 @@ import software.jevera.service.assortment.*;
 import static java.util.Arrays.asList;
 
 public class ApplicationFactory {
-    public static UserService userService;
-    public static AssortmentService assortmentService;
+    public static final UserService userService;
+    public static final AssortmentService assortmentService;
+    public static StateMachine stateMachine;
 
     static {
         userService = new UserService(new UserImplRepository());
-        StateMachine stateMachine;
         stateMachine = new StateMachine(asList(
            new New(),
            new Favorites(),

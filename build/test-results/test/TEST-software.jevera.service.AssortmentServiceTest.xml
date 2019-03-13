@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="software.jevera.service.AssortmentServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-03-13T22:11:29" hostname="Vlad" time="0.883">
+  <properties/>
+  <testcase name="favorites" classname="software.jevera.service.AssortmentServiceTest" time="0.848"/>
+  <testcase name="remove" classname="software.jevera.service.AssortmentServiceTest" time="0.004"/>
+  <testcase name="upload" classname="software.jevera.service.AssortmentServiceTest" time="0.004"/>
+  <testcase name="createAssortment" classname="software.jevera.service.AssortmentServiceTest" time="0.003"/>
+  <testcase name="sales" classname="software.jevera.service.AssortmentServiceTest" time="0.01"/>
+  <testcase name="inTheBasket" classname="software.jevera.service.AssortmentServiceTest" time="0.004"/>
+  <testcase name="allAssortment" classname="software.jevera.service.AssortmentServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -2,7 +2,6 @@ package software.jevera.service;
 
 import software.jevera.dao.AssortmentRepository;
 import software.jevera.domain.Assortment;
-import software.jevera.domain.Purchase;
 import software.jevera.domain.User;
 import software.jevera.exceptions.ExistsException;
 import software.jevera.service.assortment.StateMachine;
@@ -31,7 +30,7 @@ public class AssortmentService{
         }
     }
 
-    public List<Assortment> allAsortment(){
+    public List<Assortment> allAssortment(){
         return this.assortmentRepository.findAll();
     }
 
@@ -72,11 +71,11 @@ public class AssortmentService{
         stateMachine.inTheBasket(assortment);
         assortmentRepository.save(assortment);
     }
-
-    public void usePurchase(Long id, Integer amount, User user){
-        Assortment assortment = assortmenById(id);
-        stateMachine.usePurchase(assortment, new Purchase(assortment,user,amount));
-        //stateMachine.usePurchase(assortment, user, amount);
-        assortmentRepository.save(assortment);
-    }
+//
+//    public void usePurchase(Long id, Integer amount, User user){
+//        Assortment assortment = assortmenById(id);
+//        stateMachine.usePurchase(assortment, new Purchase(assortment,user,amount));
+//        //stateMachine.usePurchase(assortment, user, amount);
+//        assortmentRepository.save(assortment);
+//    }
 }

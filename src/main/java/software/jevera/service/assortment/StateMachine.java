@@ -1,7 +1,6 @@
 package software.jevera.service.assortment;
 
 import software.jevera.domain.Assortment;
-import software.jevera.domain.Purchase;
 
 import java.util.List;
 import java.util.Map;
@@ -39,9 +38,9 @@ public class StateMachine {
         getState(assortment).remove(assortment);
     }
 
-    public void usePurchase(Assortment assortment, Purchase purchase){
-        getState(assortment).usePurchase(assortment, purchase);
-    }
+//    public void usePurchase(Assortment assortment, Purchase purchase){
+//        getState(assortment).usePurchase(assortment, purchase);
+//    }
 
 
 }
