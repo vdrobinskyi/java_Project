@@ -14,7 +14,7 @@ public class Assortment {
     private String description;
     private Integer price;
     private Integer amount;
-    private List<Purchase> purchases= new ArrayList<>();
+    private List<Rating> ratings= new ArrayList<>();
     private AssortmentStateEnum status = NEW;
     private String kind;
     private User buyer;
@@ -70,12 +70,12 @@ public class Assortment {
         this.amount = amount;
     }
 
-    public List<Purchase> getPurchases() {
-        return purchases;
+    public List<Rating> getRatings() {
+        return ratings;
     }
 
-    public void setPurchases(List<Purchase> purchases) {
-        this.purchases = purchases;
+    public void setRatings(List<Rating> ratings) {
+        this.ratings = ratings;
     }
 
     public AssortmentStateEnum getStatus() {

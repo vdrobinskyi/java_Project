@@ -53,7 +53,7 @@ public class AssortmentServiceTest {
     public void upload() {
         Assortment assortment = new Assortment();
         assortment.setStatus(NEW);
-        when(assortmentRepository.findById(ASSORTMENT_ID)).thenReturn(assortment);
+        when(assortmentRepository.findById(ASSORTMENT_ID)).thenReturn(java.util.Optional.of(assortment));
         assortmentService.upload(ASSORTMENT_ID);
         Assortment removeAssortment = new Assortment();
         removeAssortment.setStatus(UPLOAD);
@@ -64,7 +64,7 @@ public class AssortmentServiceTest {
     public void remove() {
         Assortment assortment = new Assortment();
         assortment.setStatus(UPLOAD);
-        when(assortmentRepository.findById(ASSORTMENT_ID)).thenReturn(assortment);
+        when(assortmentRepository.findById(ASSORTMENT_ID)).thenReturn(java.util.Optional.of(assortment));
         assortmentService.remove(ASSORTMENT_ID);
         Assortment removeAssortment = new Assortment();
         removeAssortment.setStatus(REMOVE);
@@ -75,7 +75,7 @@ public class AssortmentServiceTest {
     public void sales() {
         Assortment assortment = new Assortment();
         assortment.setStatus(IN_THE_BASKET);
-        when(assortmentRepository.findById(ASSORTMENT_ID)).thenReturn(assortment);
+        when(assortmentRepository.findById(ASSORTMENT_ID)).thenReturn(java.util.Optional.of(assortment));
         assortmentService.sales(ASSORTMENT_ID);
         Assortment removeAssortment = new Assortment();
         removeAssortment.setStatus(SALES);
@@ -86,7 +86,7 @@ public class AssortmentServiceTest {
     public void favorites() {
         Assortment assortment = new Assortment();
         assortment.setStatus(IN_THE_BASKET);
-        when(assortmentRepository.findById(ASSORTMENT_ID)).thenReturn(assortment);
+        when(assortmentRepository.findById(ASSORTMENT_ID)).thenReturn(java.util.Optional.of(assortment));
         assortmentService.favorites(ASSORTMENT_ID);
         Assortment removeAssortment = new Assortment();
         removeAssortment.setStatus(FAVORITES);
@@ -97,7 +97,7 @@ public class AssortmentServiceTest {
     public void inTheBasket() {
         Assortment assortment = new Assortment();
         assortment.setStatus(UPLOAD);
-        when(assortmentRepository.findById(ASSORTMENT_ID)).thenReturn(assortment);
+        when(assortmentRepository.findById(ASSORTMENT_ID)).thenReturn(java.util.Optional.of(assortment));
         assortmentService.inTheBasket(ASSORTMENT_ID);
         Assortment removeAssortment = new Assortment();
         removeAssortment.setStatus(IN_THE_BASKET);

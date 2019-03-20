@@ -3,10 +3,13 @@ package software.jevera.service;
 import software.jevera.dao.AssortmentRepository;
 import software.jevera.domain.Assortment;
 import software.jevera.domain.User;
+import software.jevera.exceptions.EntityNotFound;
 import software.jevera.exceptions.ExistsException;
 import software.jevera.service.assortment.StateMachine;
 
 import java.util.List;
+import java.util.Optional;
+
 
 public class AssortmentService{
 
@@ -30,6 +33,10 @@ public class AssortmentService{
         }
     }
 
+    private Assortment getAssortment(Long id){
+        return assortmentRepository.findById(id).orElseThrow(EntityNotFound::new);
+    }
+
     public List<Assortment> allAssortment(){
         return this.assortmentRepository.findAll();
     }
@@ -38,36 +45,36 @@ public class AssortmentService{
         return  this.assortmentRepository.findByUser(user);
     }
 
-    private Assortment assortmenById(Long id){
+    public Optional<Assortment> assortmenById(Long id){
         return assortmentRepository.findById(id);
     }
 
     public void upload(Long id){
-        Assortment assortment = assortmenById(id);
+        Assortment assortment = getAssortment(id);
         stateMachine.upload(assortment);
         assortmentRepository.save(assortment);
     }
 
     public void remove(Long id){
-        Assortment assortment = assortmenById(id);
+        Assortment assortment = getAssortment(id);
         stateMachine.remove(assortment);
         assortmentRepository.save(assortment);
     }
 
     public void sales(Long id){
-        Assortment assortment = assortmenById(id);
+        Assortment assortment = getAssortment(id);
         stateMachine.sales(assortment);
         assortmentRepository.save(assortment);
     }
 
     public void favorites(Long id){
-        Assortment assortment = assortmenById(id);
+        Assortment assortment = getAssortment(id);
         stateMachine.favorites(assortment);
         assortmentRepository.save(assortment);
     }
 
     public void inTheBasket(Long id){
-        Assortment assortment = assortmenById(id);
+        Assortment assortment = getAssortment(id);
         stateMachine.inTheBasket(assortment);
         assortmentRepository.save(assortment);
     }
