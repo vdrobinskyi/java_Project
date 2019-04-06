@@ -1,6 +1,9 @@
 package software.jevera.service;
 
+import org.junit.Assert;
 import org.junit.Before;
+import org.junit.runner.RunWith;
+import org.mockito.junit.MockitoJUnitRunner;
 import software.jevera.dao.AssortmentRepository;
 import software.jevera.domain.Assortment;
 import software.jevera.domain.User;
@@ -9,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 import static software.jevera.configuration.ApplicationFactory.stateMachine;
 import static software.jevera.service.assortment.AssortmentStateEnum.*;
-
+@RunWith(MockitoJUnitRunner.class)
 public class AssortmentServiceTest {
 
 
@@ -22,19 +25,20 @@ public class AssortmentServiceTest {
     public void before(){
         assortmentRepository = mock(AssortmentRepository.class);
         assortmentService = new AssortmentService(assortmentRepository, stateMachine);
-        //assortmentService = new AssortmentService( mock (assortmentRepository.class), null);
     }
 
     @org.junit.Test
     public void createAssortment() {
         User user = new User("Test User", "Test Password");
         User badUser = new User("Bad User", "Bad Password");
-        Assortment assortment = new Assortment(500,"Test Name", "Test Description", 100, badUser);
+        Assortment assortment = new Assortment(500,"Test Name", "Test Description", badUser);
         when(assortmentRepository.save(assortment)).thenReturn(assortment);
-//        Assortment assortmentResult = assortmentService.createAssortment(assortment, user);   java.lang.NullPointerException
-//        Assert.assertNotEquals(assortmentResult.getSaler(), user);
-//        verify(assortmentRepository).save(refEq(assortment));
+        Assortment assortmentResult = assortmentService.createAssortment(assortment, user);
+        Assert.assertNotEquals(assortmentResult.getBuyer(), user);
+        verify(assortmentRepository).save(refEq(assortment));
         verifyNoMoreInteractions(assortmentRepository);
+
+
     }
 
     @org.junit.Test
@@ -104,10 +108,4 @@ public class AssortmentServiceTest {
         verify(assortmentRepository).save(refEq(removeAssortment));
     }
 
-//    @org.junit.Test
-//    public void usePurchase() {
-//        Assortment assortment = new Assortment();
-//        when(assortmentRepository.)
-//
-//    }
 }

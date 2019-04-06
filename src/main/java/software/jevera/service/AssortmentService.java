@@ -1,5 +1,7 @@
 package software.jevera.service;
 
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import software.jevera.dao.AssortmentRepository;
 import software.jevera.domain.Assortment;
 import software.jevera.domain.User;
@@ -10,11 +12,12 @@ import software.jevera.service.assortment.StateMachine;
 import java.util.List;
 import java.util.Optional;
 
-
+@Service
+@RequiredArgsConstructor
 public class AssortmentService{
 
-    private final AssortmentRepository assortmentRepository;
-    private final StateMachine stateMachine;
+    private AssortmentRepository assortmentRepository;
+    private StateMachine stateMachine;
 
     public AssortmentService(AssortmentRepository assortmentRepository, StateMachine stateMachine) {
         this.assortmentRepository = assortmentRepository;
@@ -22,12 +25,12 @@ public class AssortmentService{
     }
 
     public Assortment createAssortment(Assortment assortment, User user){
-        null_Id(assortment.getId(),"Already have ID");
+        assertNotNull(assortment.getId(),"Already have ID");
         assortment.setSaler(user);
         return assortmentRepository.save(assortment);
     }
 
-    private void null_Id(Long id, String message){
+    private void assertNotNull(Long id, String message){
         if(id != null){
             throw new ExistsException(message);
         }

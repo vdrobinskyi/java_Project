@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="software.jevera.service.AssortmentServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-03-20T23:10:34" hostname="Vlad" time="0.719">
+<testsuite name="software.jevera.service.AssortmentServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-04-06T20:39:38" hostname="Vlad" time="0.298">
   <properties/>
-  <testcase name="favorites" classname="software.jevera.service.AssortmentServiceTest" time="0.706"/>
-  <testcase name="remove" classname="software.jevera.service.AssortmentServiceTest" time="0.003"/>
-  <testcase name="upload" classname="software.jevera.service.AssortmentServiceTest" time="0.002"/>
-  <testcase name="createAssortment" classname="software.jevera.service.AssortmentServiceTest" time="0.001"/>
-  <testcase name="sales" classname="software.jevera.service.AssortmentServiceTest" time="0.001"/>
-  <testcase name="inTheBasket" classname="software.jevera.service.AssortmentServiceTest" time="0.0"/>
+  <testcase name="favorites" classname="software.jevera.service.AssortmentServiceTest" time="0.284"/>
+  <testcase name="remove" classname="software.jevera.service.AssortmentServiceTest" time="0.001"/>
+  <testcase name="upload" classname="software.jevera.service.AssortmentServiceTest" time="0.001"/>
+  <testcase name="createAssortment" classname="software.jevera.service.AssortmentServiceTest" time="0.002"/>
+  <testcase name="sales" classname="software.jevera.service.AssortmentServiceTest" time="0.002"/>
+  <testcase name="inTheBasket" classname="software.jevera.service.AssortmentServiceTest" time="0.001"/>
   <testcase name="allAssortment" classname="software.jevera.service.AssortmentServiceTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

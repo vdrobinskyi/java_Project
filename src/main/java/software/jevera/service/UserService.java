@@ -1,13 +1,18 @@
 package software.jevera.service;
 
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import software.jevera.dao.UserRepository;
 import software.jevera.domain.User;
+import software.jevera.domain.dto.UserDto;
 import software.jevera.exceptions.UncorrectPassword;
 import software.jevera.exceptions.UserWithLogin;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
 
+@Service
+@RequiredArgsConstructor
 public class UserService {
     private UserRepository userRepository;
 
@@ -15,15 +20,15 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
-    public User registrationUser(User user){
-        if (userRepository.UserWithLogin(user.getLogin())){
-            throw new UserWithLogin(user.getLogin());
+    public User registrationUser(UserDto userDto){
+        if (userRepository.UserWithLogin(userDto.getLoginDto())){
+            throw new UserWithLogin(userDto.getLoginDto());
         }
 
-        User user1 = new User();
-        user1.setLogin(user1.getLogin());
-        user1.setPassword(user1.getPassword());
-        return userRepository.save(user1);
+        User user = new User();
+        user.setLogin(user.getLogin());
+        user.setPassword(user.getPassword());
+        return userRepository.save(user);
     }
 
     private static String encodePassword(String password){
@@ -38,13 +43,15 @@ public class UserService {
         }
     }
 
-    public boolean checkPassword(User user1, User user){
-        String encodePassword = encodePassword(user1.getPassword());
+    public boolean checkPassword(UserDto userDto, User user){
+        String encodePassword = encodePassword(userDto.getPasswordDto());
         return encodePassword.equals(user.getPassword());
     }
 
-    public User loginIn(User user){
-        return userRepository.findUserByLogin(user.getLogin()).filter(user1 -> checkPassword(user, user1)).orElseThrow(UncorrectPassword::new);
+    public User loginIn(UserDto userDto) {
+        return userRepository.findUserByLogin(userDto.getLoginDto())
+                .filter(user -> checkPassword(userDto, user))
+                .orElseThrow(UncorrectPassword::new);
     }
 
 }

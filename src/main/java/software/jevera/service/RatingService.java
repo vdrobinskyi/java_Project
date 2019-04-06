@@ -1,5 +1,7 @@
 package software.jevera.service;
 
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import software.jevera.dao.AssortmentRepository;
 import software.jevera.dao.RatingRepository;
 import software.jevera.domain.Assortment;
@@ -9,20 +11,16 @@ import software.jevera.exceptions.EntityNotFound;
 
 import java.util.List;
 
-
+@Service
+@RequiredArgsConstructor
 public class RatingService {
     private final AssortmentRepository assortmentRepository;
     private final RatingRepository ratingRepository;
 
-    public RatingService(AssortmentRepository assortmentRepository, RatingRepository ratingRepository) {
-        this.assortmentRepository = assortmentRepository;
-        this.ratingRepository = ratingRepository;
-    }
-
     public Rating addRating(Long id, String text, User user){
 
         Assortment assortment = assortmentRepository.findById(id).orElseThrow(EntityNotFound::new);
-        Rating rating = new Rating(user, text, assortment);
+        Rating rating = new Rating( user, text, assortment);
         return ratingRepository.save(rating);
     }
 
