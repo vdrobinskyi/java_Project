@@ -1,11 +1,13 @@
 package software.jevera.service.assortment;
 
+import org.springframework.stereotype.Component;
 import software.jevera.domain.Assortment;
 
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+@Component
 public class StateMachine {
 
     private final Map<AssortmentStateEnum, AssortmentState> states = new ConcurrentHashMap<>();

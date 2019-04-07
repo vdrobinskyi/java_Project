@@ -1,5 +1,6 @@
 package software.jevera.dao.impl;
 
+import org.springframework.stereotype.Repository;
 import software.jevera.dao.AssortmentRepository;
 import software.jevera.domain.Assortment;
 import software.jevera.domain.User;
@@ -9,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 
 import static software.jevera.service.assortment.AssortmentStateEnum.*;
-
+@Repository
 public class AssortmentImplRepository implements AssortmentRepository {
 
     private Set<Assortment> assortments = new HashSet<>();

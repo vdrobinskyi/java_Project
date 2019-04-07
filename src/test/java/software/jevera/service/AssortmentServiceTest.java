@@ -3,22 +3,30 @@ package software.jevera.service;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.runner.RunWith;
-import org.mockito.junit.MockitoJUnitRunner;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringRunner;
 import software.jevera.dao.AssortmentRepository;
 import software.jevera.domain.Assortment;
 import software.jevera.domain.User;
+import software.jevera.service.assortment.*;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 import static software.jevera.configuration.ApplicationFactory.stateMachine;
 import static software.jevera.service.assortment.AssortmentStateEnum.*;
-@RunWith(MockitoJUnitRunner.class)
+@RunWith(SpringRunner.class)
+@ContextConfiguration(classes = {AssortmentService.class, StateMachine.class, New.class, Upload.class, InTheBasket.class, Favorites.class, Sales.class, Remove.class})
 public class AssortmentServiceTest {
 
 
     private static final Long ASSORTMENT_ID = 1234L;
+
+    @Autowired
     private AssortmentService assortmentService;
 
+    @MockBean
     private AssortmentRepository assortmentRepository;
 
     @Before

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="software.jevera.service.UserServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-04-06T20:39:38" hostname="Vlad" time="0.013">
+<testsuite name="software.jevera.service.UserServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-04-07T19:40:59" hostname="Vlad" time="0.019">
   <properties/>
-  <testcase name="registerUser" classname="software.jevera.service.UserServiceTest" time="0.002"/>
+  <testcase name="registerUser" classname="software.jevera.service.UserServiceTest" time="0.001"/>
   <testcase name="successLoginTest" classname="software.jevera.service.UserServiceTest" time="0.001"/>
   <testcase name="userAlreadyExists" classname="software.jevera.service.UserServiceTest" time="0.001"/>
-  <testcase name="invalidPassTest" classname="software.jevera.service.UserServiceTest" time="0.004"/>
-  <testcase name="invalidLoginTest" classname="software.jevera.service.UserServiceTest" time="0.0"/>
+  <testcase name="invalidPassTest" classname="software.jevera.service.UserServiceTest" time="0.012"/>
+  <testcase name="invalidLoginTest" classname="software.jevera.service.UserServiceTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

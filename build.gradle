@@ -16,16 +16,16 @@ test {
 }
 
 application {
-    mainClassName = 'software.jevera.JavaProjectApp'
+    mainClassName = 'software.jevera.InternetStore'
 }
-//
-//jar {
-//    manifest {
-//        attributes(
-//                'Main-Class': mainClassName
-//        )
-//    }
-//}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': mainClassName
+        )
+    }
+}
 
 repositories {
     mavenCentral()

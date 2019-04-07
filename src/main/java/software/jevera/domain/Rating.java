@@ -4,6 +4,8 @@ import lombok.*;
 @Setter @Getter
 @EqualsAndHashCode(of = "id")
 @ToString
+@AllArgsConstructor
+@NoArgsConstructor
 public class Rating {
     private Long id;
     private User author;

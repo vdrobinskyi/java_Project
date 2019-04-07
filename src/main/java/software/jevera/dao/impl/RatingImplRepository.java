@@ -1,5 +1,6 @@
 package software.jevera.dao.impl;
 
+import org.springframework.stereotype.Repository;
 import software.jevera.dao.RatingRepository;
 import software.jevera.domain.Rating;
 import software.jevera.domain.User;
@@ -9,6 +10,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 
+@Repository
 public class RatingImplRepository implements RatingRepository {
 
     private List<Rating> ratings = new ArrayList<>();
