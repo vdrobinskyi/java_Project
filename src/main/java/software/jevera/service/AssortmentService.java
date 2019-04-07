@@ -16,13 +16,13 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class AssortmentService{
 
-    private AssortmentRepository assortmentRepository;
-    private StateMachine stateMachine;
+    private final AssortmentRepository assortmentRepository;
+    private final StateMachine stateMachine;
 
-    public AssortmentService(AssortmentRepository assortmentRepository, StateMachine stateMachine) {
-        this.assortmentRepository = assortmentRepository;
-        this.stateMachine = stateMachine;
-    }
+//    public AssortmentService(AssortmentRepository assortmentRepository, StateMachine stateMachine) {
+//        this.assortmentRepository = assortmentRepository;
+//        this.stateMachine = stateMachine;
+//    }
 
     public Assortment createAssortment(Assortment assortment, User user){
         assertNotNull(assortment.getId(),"Already have ID");

@@ -27,7 +27,7 @@ public class UserService {
 
         User user = new User();
         user.setLogin(user.getLogin());
-        user.setPassword(user.getPassword());
+        user.setPassword(encodePassword(userDto.getPasswordDto()));
         return userRepository.save(user);
     }
 

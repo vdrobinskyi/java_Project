@@ -34,53 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/InternetStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="243">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/service/RatingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/domain/Rating.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/service/assortment/StateMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/configuration/InternetStoreConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,39 +56,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/dao/impl/AssortmentImplRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="84">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1554664492998" expanded="true" signature="539:657" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/dao/impl/RatingImplRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/domain/dto/UserDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1133#1134#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1216#1217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/dao/impl/UserImplRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="85">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,12 +80,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/service/AssortmentService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/dao/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+            <state relative-caret-position="153">
+              <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/dao/impl/UserImplRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-251">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/web/InternetStoreController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/software/jevera/service/UserServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-187">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1554565080676" expanded="true" signature="1077:1129" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/web/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/service/assortment/Remove.java" />
         <option value="$PROJECT_DIR$/src/service/assortment/Sales.java" />
         <option value="$PROJECT_DIR$/src/service/assortment/StateMachine.java" />
         <option value="$PROJECT_DIR$/src/service/assortment/Upload.java" />
@@ -206,15 +203,12 @@
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/dao/RatingRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/exceptions/EntityNotFound.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/configuration/ApplicationFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/software/jevera/dao/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/exceptions/UncorrectPassword.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/dao/AssortmentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/service/assortment/AssortmentStateEnum.java" />
         <option value="$PROJECT_DIR$/src/test/java/software/jevera/service/RatingServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/domain/UserDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/domain/dto/UserDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/software/jevera/service/AssortmentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/software/jevera/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/domain/Assortment.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/domain/Purchase.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/domain/User.java" />
@@ -223,9 +217,7 @@
         <option value="$PROJECT_DIR$/src/test/java/software/jevera/dao/impl/UserImplRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/software/jevera/dao/impl/AssortmentImplRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/software/jevera/dao/impl/RatingImplRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/resources/templates/helloWorld.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/configuration/AuthFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/software/jevera/web/InternetStoreController.java" />
         <option value="$PROJECT_DIR$/src/main/java/resources/application.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/software/jevera/service/AssortmentServiceTest.java" />
@@ -236,6 +228,12 @@
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/dao/impl/RatingImplRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/dao/impl/UserImplRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/software/jevera/InternetStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/software/jevera/service/AssortmentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/templates/helloWorld.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/software/jevera/web/InternetStoreController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/software/jevera/web/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/software/jevera/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/software/jevera/dao/UserRepository.java" />
       </list>
     </option>
   </component>
@@ -283,7 +281,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jevera" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_Project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_Project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_Project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -323,7 +345,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554666137561" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554672839154" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../xm-ms-config-repository" />
@@ -367,7 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InternetStore">
+  <component name="RunManager" selected="JUnit.UserServiceTest.registerUser">
     <configuration name="AssortmentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_Project.test" />
       <extension name="coverage">
@@ -415,17 +437,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RatingImplRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest.registerUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_Project.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="software.jevera.dao.impl.*" />
+          <option name="PATTERN" value="software.jevera.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="software.jevera.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="software.jevera.dao.impl.RatingImplRepositoryTest" />
-      <option name="METHOD_NAME" value="save" />
+      <option name="PACKAGE_NAME" value="software.jevera.service" />
+      <option name="MAIN_CLASS_NAME" value="software.jevera.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="registerUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -447,10 +469,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.InternetStore" />
+        <item itemvalue="JUnit.UserServiceTest.registerUser" />
         <item itemvalue="JUnit.AssortmentServiceTest" />
         <item itemvalue="JUnit.RatingImplRepositoryTest.findRatingByAssortmentId" />
         <item itemvalue="JUnit.RatingImplRepositoryTest.findRatingByUser" />
-        <item itemvalue="JUnit.RatingImplRepositoryTest.save" />
       </list>
     </recent_temporary>
   </component>
@@ -486,17 +508,11 @@
       <workItem from="1554553178564" duration="1085000" />
       <workItem from="1554555569649" duration="2273000" />
       <workItem from="1554559592601" duration="20921000" />
-      <workItem from="1554661958705" duration="3926000" />
+      <workItem from="1554661958705" duration="9675000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RatingImplRepositoryTest_findRatingByAssortmentId - 2019.04.06 at 22h 15m 25s.xml">
-      <configuration name="RatingImplRepositoryTest.findRatingByAssortmentId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RatingImplRepositoryTest_findRatingByAssortmentId - 2019.04.06 at 22h 16m 09s.xml">
-      <configuration name="RatingImplRepositoryTest.findRatingByAssortmentId" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RatingImplRepositoryTest_findRatingByAssortmentId - 2019.04.06 at 22h 16m 57s.xml">
       <configuration name="RatingImplRepositoryTest.findRatingByAssortmentId" configurationId="JUnit" />
     </history-entry>
@@ -521,9 +537,15 @@
     <history-entry file="AssortmentServiceTest - 2019.04.07 at 21h 55m 02s.xml">
       <configuration name="AssortmentServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceTest_registerUser - 2019.04.08 at 00h 13m 27s.xml">
+      <configuration name="UserServiceTest.registerUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_registerUser - 2019.04.08 at 00h 15m 55s.xml">
+      <configuration name="UserServiceTest.registerUser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104989000" />
+    <option name="totallyTimeSpent" value="110738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,7 +569,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993573" weight="0.66352624" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.91131103" weight="0.42664874" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.9106684" visible="true" weight="0.14804845" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7062982" weight="0.5531629" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -555,8 +577,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50899744" side_tool="true" visible="true" weight="0.48317632" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49100256" visible="true" weight="0.48317632" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.08933162" side_tool="true" visible="true" weight="0.14804845" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49100256" weight="0.3795424" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49421594" weight="0.4602961" />
       <window_info anchor="bottom" id="Build" order="13" sideWeight="0.49871466" weight="0.32974428" />
       <window_info anchor="bottom" id="Spring" order="14" sideWeight="0.49871466" weight="0.32974428" />
@@ -678,16 +700,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/domain/UserDto.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/dao/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/exceptions/UncorrectPassword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -709,16 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/domain/dto/UserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/domain/Purchase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -733,17 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/software/jevera/service/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1554565080676" expanded="true" signature="1077:1129" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1246,13 +1237,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/configuration/AuthFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/configuration/ApplicationFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1272,16 +1256,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/web/InternetStoreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/classes/software/jevera/configuration/InternetStoreConfig.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1309,13 +1283,6 @@
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-408" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/templates/helloWorld.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/dao/AssortmentRepository.java">
@@ -1363,13 +1330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/service/assortment/StateMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -1384,16 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/configuration/InternetStoreConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1422,16 +1372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/dao/impl/UserImplRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/service/RatingService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -1442,19 +1382,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/service/AssortmentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="98">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1554666626821" expanded="true" signature="632:844" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/templates/helloWorld.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/InternetStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="243">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1462,10 +1410,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/service/AssortmentService.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        <state relative-caret-position="-251">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/configuration/InternetStoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/web/InternetStoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/software/jevera/service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1554565080676" expanded="true" signature="1077:1129" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/dao/impl/UserImplRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/domain/dto/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/software/jevera/dao/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
