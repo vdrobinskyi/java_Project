@@ -14,20 +14,18 @@ import java.security.MessageDigest;
 @Service
 @RequiredArgsConstructor
 public class UserService {
-    private UserRepository userRepository;
 
-    public UserService(UserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
+    private final UserRepository userRepository;
+
 
     public User registrationUser(UserDto userDto){
-        if (userRepository.UserWithLogin(userDto.getLoginDto())){
-            throw new UserWithLogin(userDto.getLoginDto());
+        if (userRepository.UserWithLogin(userDto.getLogin())){
+            throw new UserWithLogin(userDto.getLogin());
         }
 
         User user = new User();
-        user.setLogin(user.getLogin());
-        user.setPassword(encodePassword(userDto.getPasswordDto()));
+        user.setLogin(userDto.getLogin());
+        user.setPasswordHash(encodePassword(userDto.getPassword()));
         return userRepository.save(user);
     }
 
@@ -44,12 +42,12 @@ public class UserService {
     }
 
     public boolean checkPassword(UserDto userDto, User user){
-        String encodePassword = encodePassword(userDto.getPasswordDto());
-        return encodePassword.equals(user.getPassword());
+        String encodePassword = encodePassword(userDto.getPassword());
+        return encodePassword.equals(user.getPasswordHash());
     }
 
     public User loginIn(UserDto userDto) {
-        return userRepository.findUserByLogin(userDto.getLoginDto())
+        return userRepository.findUserByLogin(userDto.getLogin())
                 .filter(user -> checkPassword(userDto, user))
                 .orElseThrow(UncorrectPassword::new);
     }

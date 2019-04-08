@@ -1,21 +1,26 @@
 package software.jevera.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 @Getter @Setter
 @EqualsAndHashCode(of = "login")
 @ToString
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
     private String login;
-    private String password;
 
-    public User(){}
+    @JsonIgnore
+    private String passwordHash;
 
-
-    public User(String login, String password) {
-        this.login = login;
-        this.password = password;
-    }
+//    public User(){}
+//
+//
+//    public User(String login, String password) {
+//        this.login = login;
+//        this.password = password;
+//    }
 //    public String getLogin() {
 //        return login;
 //    }

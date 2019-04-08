@@ -17,8 +17,6 @@ public class UserController {
     private final HttpSession httpSession;
 
 
-    // падают 500 на этих методах
-
 
     @PostMapping(value = "/register")
     public User register(UserDto userDto){

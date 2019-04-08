@@ -11,7 +11,8 @@ import java.util.Optional;
 @Repository
 public class UserImplRepository implements UserRepository {
 
-    private List<User> users = new ArrayList<>();
+    private final List<User> users = new ArrayList<>();
+
 
     @Override
     public boolean UserWithLogin(String login) {

@@ -1,19 +1,21 @@
 package software.jevera.domain.dto;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter @Setter
+@Data
 @AllArgsConstructor
 public class UserDto{
 
-    private String loginDto;
-    private String passwordDto;
+    private String login;
+    private String password;
 
-//    public UserDto(String loginDto, String passwordDto) {
+//    public UserDto(String loginDto, String password) {
 //        this.loginDto = loginDto;
-//        this.passwordDto = passwordDto;
+//        this.password = password;
 //    }
 //
 //    public String getLoginDto() {
@@ -24,11 +26,11 @@ public class UserDto{
 //        this.loginDto = loginDto;
 //    }
 //
-//    public String getPasswordDto() {
-//        return passwordDto;
+//    public String getpassword() {
+//        return password;
 //    }
 //
-//    public void setPasswordDto(String passwordDto) {
-//        this.passwordDto = passwordDto;
+//    public void setpassword(String password) {
+//        this.password = password;
 //    }
 }
