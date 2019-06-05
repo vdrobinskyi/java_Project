@@ -10,12 +10,12 @@ public class Rating {
     private Long id;
     private User author;
     private String text;
-    private Assortment assortment;
+    private Product product;
 
-    public Rating(User author, String text, Assortment assortment) {
+    public Rating(User author, String text, Product product) {
         this.author = author;
         this.text = text;
-        this.assortment = assortment;
+        this.product = product;
     }
 //
 //    public Long getId() {
@@ -42,12 +42,12 @@ public class Rating {
 //        this.text = text;
 //    }
 //
-//    public Assortment getAssortment() {
-//        return assortment;
+//    public Product getProduct() {
+//        return product;
 //    }
 //
-//    public void setAssortment(Assortment assortment) {
-//        this.assortment = assortment;
+//    public void setProduct(Product product) {
+//        this.product = product;
 //    }
 //
 //    @Override

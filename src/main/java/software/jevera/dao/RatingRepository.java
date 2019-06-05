@@ -8,6 +8,6 @@ import java.util.List;
 public interface RatingRepository {
     Rating save(Rating rating);
     List<Rating> findByUser(User user);
-    List<Rating> findByAssortmentId(Long assortment);
+    List<Rating> findByProductId(Long assortment);
     void delete(Long id);
 }

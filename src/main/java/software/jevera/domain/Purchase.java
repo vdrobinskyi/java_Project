@@ -5,22 +5,24 @@ import lombok.Setter;
 
 @Getter @Setter
 public class Purchase {
-    private Assortment assortment;
+    private Long id;
+    private Product product;
     private User user;
     private Integer amount;
 //
-    public Purchase(Assortment assortment, User user, Integer amount) {
-        this.assortment = assortment;
+    public Purchase(Long id,Product product, User user, Integer amount) {
+        this.id = id;
+        this.product = product;
         this.user = user;
         this.amount = amount;
     }
 //
-//    public Assortment getAssortment() {
-//        return assortment;
+//    public Product getProduct() {
+//        return product;
 //    }
 //
-//    public void setAssortment(Assortment assortment) {
-//        this.assortment = assortment;
+//    public void setProduct(Product product) {
+//        this.product = product;
 //    }
 //
 //    public User getUser() {

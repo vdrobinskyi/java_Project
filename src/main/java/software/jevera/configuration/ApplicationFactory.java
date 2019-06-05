@@ -1,16 +1,16 @@
 package software.jevera.configuration;
 
-import software.jevera.dao.impl.AssortmentImplRepository;
+import software.jevera.dao.impl.ProductImplRepository;
 import software.jevera.dao.impl.UserImplRepository;
-import software.jevera.service.AssortmentService;
+import software.jevera.service.ProductService;
 import software.jevera.service.UserService;
-import software.jevera.service.assortment.*;
+import software.jevera.service.product.*;
 
 import static java.util.Arrays.asList;
 
 public class ApplicationFactory {
     public static final UserService userService;
-    public static final AssortmentService assortmentService;
+    public static final ProductService PRODUCT_SERVICE;
     public static StateMachine stateMachine;
 
     static {
@@ -23,7 +23,7 @@ public class ApplicationFactory {
            new Remove(),
            new Upload()
         ));
-        assortmentService = new AssortmentService(new AssortmentImplRepository(), stateMachine);
+        PRODUCT_SERVICE = new ProductService(new ProductImplRepository(), stateMachine);
     }
 
 }

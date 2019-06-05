@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 
-@Repository
+
 public class RatingImplRepository implements RatingRepository {
 
     private List<Rating> ratings = new ArrayList<>();
@@ -29,8 +29,8 @@ public class RatingImplRepository implements RatingRepository {
     }
 
     @Override
-    public List<Rating> findByAssortmentId(Long assortment) {
-        return ratings.stream().filter(rating -> rating.getAssortment().getId().equals(assortment)).collect(Collectors.toList());
+    public List<Rating> findByProductId(Long assortment) {
+        return ratings.stream().filter(rating -> rating.getProduct().getId().equals(assortment)).collect(Collectors.toList());
     }
 
     @Override

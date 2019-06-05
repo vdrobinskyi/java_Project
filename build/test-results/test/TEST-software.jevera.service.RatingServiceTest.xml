@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="software.jevera.service.RatingServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-04-08T16:04:12" hostname="Vlad" time="0.008">
+<testsuite name="software.jevera.service.RatingServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-04-30T06:45:54" hostname="Vlad" time="0.008">
   <properties/>
-  <testcase name="ratingNotFound" classname="software.jevera.service.RatingServiceTest" time="0.001"/>
-  <testcase name="assortmentGetRating" classname="software.jevera.service.RatingServiceTest" time="0.0"/>
+  <testcase name="ratingNotFound" classname="software.jevera.service.RatingServiceTest" time="0.002"/>
   <testcase name="delete" classname="software.jevera.service.RatingServiceTest" time="0.001"/>
   <testcase name="addRating" classname="software.jevera.service.RatingServiceTest" time="0.001"/>
-  <testcase name="getUserRating" classname="software.jevera.service.RatingServiceTest" time="0.001"/>
+  <testcase name="ProductGetRating" classname="software.jevera.service.RatingServiceTest" time="0.001"/>
+  <testcase name="getUserRating" classname="software.jevera.service.RatingServiceTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

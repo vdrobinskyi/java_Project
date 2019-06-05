@@ -3,7 +3,7 @@ package software.jevera.dao.impl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.junit.MockitoJUnitRunner;
-import software.jevera.domain.Assortment;
+import software.jevera.domain.Product;
 import software.jevera.domain.Rating;
 import software.jevera.domain.User;
 
@@ -17,13 +17,13 @@ public class RatingImplRepositoryTest {
 
     private RatingImplRepository ratingImplRepository = new RatingImplRepository();
 
-    private Assortment createAssortment(String name, Integer price, String saler, Long id) {
-        Assortment assortment = new Assortment();
-        assortment.setName(name);
-        assortment.setPrice(price);
-        assortment.setSaler(new User(saler, "saler"));
-        assortment.setId(id);
-        return assortment;
+    private Product createAssortment(String name, Integer price, String saler, Long id) {
+        Product product = new Product();
+        product.setName(name);
+        product.setPrice(price);
+        product.setSaler(new User(saler, "saler"));
+        product.setId(id);
+        return product;
     }
 
     @Test
@@ -49,7 +49,7 @@ public class RatingImplRepositoryTest {
 //                new Rating(new User("6", "66"), "Text6", createAssortment("name1", 1, "saler1", 1L)),
 //                new Rating(new User("7", "77"), "Text7", createAssortment("name1", 1, "saler1", 1L))
 //        );
-//        List<Rating> assortment = asList(
+//        List<Rating> product = asList(
 //                new Rating(new User("1", "11"), "Text", createAssortment("name1", 1, "saler1", 1L)),
 //                new Rating(new User("3", "33"), "Text3", createAssortment("name1", 1, "saler1", 1L)),
 //                new Rating(new User("4", "44"), "Text4", createAssortment("name1", 1, "saler1", 1L)),
@@ -64,7 +64,7 @@ public class RatingImplRepositoryTest {
 //        ratings.forEach(ratingImplRepository::save);
 //        System.out.println(ratings);
 //        System.out.println(assortment1);
-//        assertEquals(assortment, ratingImplRepository.findByAssortmentId(1L));
+//        assertEquals(product, ratingImplRepository.findByAssortmentId(1L));
 //        assertEquals(assortment1, ratingImplRepository.findByAssortmentId(2L));
 //    }
 //

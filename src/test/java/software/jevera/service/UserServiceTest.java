@@ -27,15 +27,17 @@ public class UserServiceTest {
     @Mock
     private UserRepository userRepository;
 
-    @Test
-    public void successLoginTest() {
-        User user = new User("login", "passwd");
-        when(userRepository.findUserByLogin("login")).thenReturn(Optional.of(user));
+//    @Test
+//    public void successLoginTest() {
+//        User user = new User("login", "passwd");
+//        userRepository.save(user);
+//        when(userRepository.findUserByLogin("unlogin")).thenReturn(Optional.of(user));
 //        User loginedUser = userService.loginIn(new UserDto("login", "passwd"));
+//        userRepository.save(loginedUser);
 //        assertEquals(loginedUser, user);
 //        verify(userRepository).findUserByLogin("login");
 //        verifyNoMoreInteractions(userRepository);
-    }
+//    }
 
     @Test(expected = UncorrectPassword.class)
     public void invalidLoginTest() {

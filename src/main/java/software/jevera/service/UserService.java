@@ -1,6 +1,7 @@
 package software.jevera.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.SneakyThrows;
 import org.springframework.stereotype.Service;
 import software.jevera.dao.UserRepository;
 import software.jevera.domain.User;
@@ -29,6 +30,7 @@ public class UserService {
         return userRepository.save(user);
     }
 
+    @SneakyThrows
     private static String encodePassword(String password){
         MessageDigest messageDigest;
         try {
